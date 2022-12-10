@@ -32,3 +32,10 @@
 .done-text{
 text-decoration: line-through;
 }
+.done:hover{
+    transform: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    font-weight: normal;
+}
