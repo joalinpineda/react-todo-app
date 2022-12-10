@@ -1,10 +1,17 @@
 import React from 'react'
+import './TodoList.css'
 
 function TodoList(props) {
   return (
-    <ul>
-        {props.children}
-    </ul>
+    <section
+      className='TodoList'
+    >
+      <ul
+      >
+          {props.children}
+      </ul>
+
+    </section>
   )
 }
 

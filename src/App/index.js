@@ -20,6 +20,7 @@ const todos = [
     text: 'Play the guitar', 
     completed: false
   },
+  
 ]
 function App() {
   return (
