@@ -1,0 +1,66 @@
+.TodoForm{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+}
+.TodoForm label{
+    font-weight: bold;
+    margin: 1rem 0;
+}
+.TodoForm textarea{
+    margin: 1rem 0;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.TodoForm__buttons button:first-child{
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    font-size: 2rem;
+    background-color: rgba(255, 255, 255, 0.14);
+    border: 1px solid white;
+    transition: 0.2s ease;
+    margin: 0;
+    text-align: center;
+}
+.TodoForm__buttons button:first-child:hover{
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+.TodoForm__buttons button:nth-child(2){
+    background-color: rgb(25, 139, 96);
+    color: #fff;
+    border-radius: 20px;
+    width: 50%;
+    height: 3rem;
+    border: none;
+    transition: 0.2s ease;
+}
+.TodoForm__buttons button:nth-child(2):hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+@media (min-width: 768px) {
+    .TodoForm{
+        max-width: 40vw;
+        font-size: 3.6rem;
+    }
+    .TodoForm__buttons button:first-child{
+        top: 4rem;
+        right: 4rem;
+        width: 6rem;
+        height: 6rem;
+        font-size: 3rem;
+    }
+    .TodoForm__buttons button:nth-child(2){
+        font-size: 1.8rem;
+        height: 6rem;
+    }
+    .TodoForm textarea::placeholder{
+        font-size: 1.8rem;
+    }
+    
+}
