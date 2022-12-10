@@ -15,8 +15,3 @@
     cursor: pointer;
     transform: rotate(180deg);
 }
-/* @media (min-width: 425px) {
-    .CreateTodoButton{
-        right: 0;
-    }
-} */
